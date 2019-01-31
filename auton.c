@@ -113,7 +113,7 @@ void autonR2(){
 	wait1Msec(950);
 	driveStop(50);
 	// Intake ball halfway
-	autoTake(350);{
+	autoTake(500);{
 	}
 	intakeStop(50);{
 	}
@@ -150,7 +150,7 @@ void autonR2(){
 	intakeStop(50);{
 	}
 	// Bring intake down
-	autoGive(150);{
+	autoGive(200);{
 	}
 	intakeStop(50);{
 	}
@@ -256,7 +256,7 @@ void autonB2(){
 	wait1Msec(950);
 	driveStop(50);
 	// Intake ball halfway
-	autoTake(375);{
+	autoTake(500);{
 	}
 	intakeStop(50);{
 	}
@@ -293,7 +293,7 @@ void autonB2(){
 	intakeStop(50);{
 	}
 	// Bring intake down
-	autoGive(150);{
+	autoGive(200);{
 	}
 	intakeStop(50);{
 	}
